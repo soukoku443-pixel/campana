@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campaña Gustavo Páramo | Movimiento Ciudadano</title>
+    <!-- Fuentes e Iconos -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,800;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Hoja de Estilos Externa -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="decoracion-fondo"></div>
+    <div class="decoracion-fondo-2"></div>
+
+    <!-- ===== HEADER Y NAVEGACIÓN ===== -->
+    <header id="header">
+        <div class="nav-container">
+            <div class="logo-container">
+                <img src="img/logo-mc.png" alt="Logo Movimiento Ciudadano">
+                <div class="logo-texto">Gustavo Páramo<span>Gobernador</span></div>
+            </div>
+            <button class="menu-toggle" id="menuToggle"><i class="fas fa-bars"></i></button>
+            <nav>
+                <ul id="navList">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#publicidad">Publicidad</a></li>
+                    <li><a href="#propuestas">Propuestas</a></li>
+                    <li><a href="#mision-vision">Rumbo</a></li>
+                    <li><a href="#valores">Valores</a></li>
+                    <li><a href="#sobre-mi">Sobre mí</a></li>
+                    <li><a href="#redes">Redes</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- ===== INICIO (HERO) ===== -->
+        <section id="inicio" class="hero">
+            <div class="hero-container reveal">
+                <div class="hero-texto">
+                    <h1>Menos Promesas <br><span>Más</span><br> Acciones</h1>
+                    <p>"Michoacán en buenas manos"</p>
+                    <a href="#sobre-mi" class="btn-principal">Conóceme <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="hero-imagen-perfil">
+                    <img src="img/perfil-gustavo.jpeg" alt="Gustavo Páramo - Candidato a Gobernador">
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== PUBLICIDAD Y TRÍPTICO ===== -->
+        <div class="seccion-contenedor" id="publicidad">
+            <div class="reveal">
+                <h2 class="titulo-seccion">Campaña en las Calles</h2>
+                <p style="margin-bottom: 2rem; font-size: 1.1rem;">Llevamos nuestro mensaje a cada rincón de Morelia y Michoacán.</p>
+                
+                <!-- Espectacular y Combis lado a lado -->
+                <div class="grid-publicidad">
+                    <img src="img/cartel publicitario.jpeg" alt="Espectacular en carretera" class="img-publicidad">
+                    <img src="img/Rutas de combi.jpeg" alt="Combis de campaña" class="img-publicidad">
+                </div>
+
+                <!-- Tríptico de Carteles -->
+                <h3 style="text-align: center; color: var(--naranja); margin: 3rem 0 1.5rem; font-size: 2rem; font-weight: 800;">Carteles de Campaña</h3>
+                <div class="triptico-container">
+                    <img src="img/sumate al cambio real.jpeg" alt="Cartel Propuestas">
+                    <img src="img/ser reales es el primer paso para cambiar.jpeg" alt="Cartel Ser reales">
+                    <img src="img/morelia se merece un cambi de verdad.jpeg" alt="Cartel Súmate al movimiento">
+                </div>
+            </div>
+        </div>
+
+        <!-- ===== PROPUESTAS (FLYERS ANTERIORES) ===== -->
+        <div class="seccion-contenedor bg-gris" id="propuestas" style="max-width: 100%;">
+            <div style="max-width: 1100px; margin: 0 auto;" class="reveal">
+                <h2 class="titulo-seccion">Propuestas de Campaña</h2>
+                <p style="margin-bottom: 2rem; font-size: 1.1rem;">Conoce nuestras principales iniciativas para transformar el estado.</p>
+                
+                <div class="flyers-grid">
+                    <div class="flyer-card">
+                        <img src="img/flyer-seguridad.jpeg" alt="Flyer Queremos vivir sin miedo">
+                    </div>
+                    <div class="flyer-card">
+                        <img src="img/flyer-educacion.jpeg" alt="Flyer El futuro comienza con educación">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ===== MISIÓN Y VISIÓN ===== -->
+        <div class="seccion-contenedor" id="mision-vision">
+            <div class="reveal">
+                <h2 class="titulo-seccion">Nuestro Rumbo</h2>
+                <div class="grid-mv">
+                    <div class="card-mv">
+                        <i class="fas fa-bullseye icono-mv"></i>
+                        <h3>Misión</h3>
+                        <p>Construir un Michoacán próspero, seguro y equitativo, impulsando el desarrollo económico local, garantizando el acceso a servicios básicos de calidad como el agua, y generando oportunidades reales para los jóvenes, mediante un gobierno cercano, transparente y con visión de futuro.</p>
+                    </div>
+                    <div class="card-mv" style="border-top-color: var(--azul-mc);">
+                        <i class="fas fa-eye icono-mv" style="color: var(--azul-mc);"></i>
+                        <h3>Visión</h3>
+                        <p>Consolidar a Michoacán como un referente nacional en desarrollo sostenible, inclusión social e innovación gubernamental para el año 2030, logrando que cada familia viva con tranquilidad, que los jóvenes construyan su futuro en su tierra, y que la transparencia sea el pilar de la confianza ciudadana.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ===== VALORES ===== -->
+        <div class="seccion-contenedor bg-gris" id="valores" style="max-width: 100%;">
+            <div style="max-width: 1100px; margin: 0 auto;" class="reveal">
+                <h2 class="titulo-seccion">Nuestros Valores</h2>
+                <p style="margin-bottom: 2rem; color: #666;">Los principios que rigen nuestro compromiso con la ciudadanía.</p>
+                
+                <div class="valores-grid">
+                    <div class="valor-card">
+                        <i class="fas fa-balance-scale"></i>
+                        <h4>Responsabilidad</h4>
+                        <p>Uso eficiente y honesto de los recursos públicos, rindiendo cuentas claras en cada acción de gobierno.</p>
+                    </div>
+                    <div class="valor-card">
+                        <i class="fas fa-gavel"></i>
+                        <h4>Justicia</h4>
+                        <p>Garantizar la igualdad de oportunidades y el respeto a los derechos humanos de todos los michoacanos.</p>
+                    </div>
+                    <div class="valor-card">
+                        <i class="fas fa-handshake"></i>
+                        <h4>Compromiso</h4>
+                        <p>Cumplir la palabra dada y trabajar incansablemente por el bienestar de las familias de Michoacán.</p>
+                    </div>
+                    <div class="valor-card">
+                        <i class="fas fa-search"></i>
+                        <h4>Transparencia</h4>
+                        <p>Un gobierno de puertas abiertas, donde la información sea accesible y el combate a la corrupción sea prioridad.</p>
+                    </div>
+                    <div class="valor-card">
+                        <i class="fas fa-globe-americas"></i>
+                        <h4>Inclusión</h4>
+                        <p>Crear políticas públicas que no dejen a nadie atrás, respetando la diversidad y apoyando a los grupos vulnerables.</p>
+                    </div>
+                    <div class="valor-card">
+                        <i class="fas fa-heart"></i>
+                        <h4>Solidaridad</h4>
+                        <p>Fomentar la empatía y el apoyo mutuo, construyendo una comunidad fuerte que se levanta junta ante las adversidades.</p>
+                    </div>
+                    <div class="valor-card">
+                        <i class="fas fa-lightbulb"></i>
+                        <h4>Innovación</h4>
+                        <p>Implementar tecnología y nuevas ideas para modernizar el gobierno y resolver los problemas de la gente de forma eficiente.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ===== VIDEO Y AUDIO ===== -->
+        <section class="seccion-multimedia" id="multimedia">
+            <div class="reveal">
+                <h2>Conecta con la Campaña</h2>
+                <p>Escucha y mira de viva voz las propuestas y el compromiso de Gustavo Páramo con Michoacán.</p>
+                
+                <!-- VIDEO DE YOUTUBE -->
+                <div class="video-container">
+                    <iframe
+                        src="https://www.youtube.com/embed/Mx38wiUnQMc"
+                        title="Video de campaña"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+
+                <!-- AUDIO PROPIO -->
+                <div class="audio-card">
+                    <div class="audio-icono"><i class="fas fa-microphone-alt"></i></div>
+                    <div class="audio-info">
+                        <h3>Mensaje en Audio</h3>
+                        <p>Dale play para escuchar el mensaje de campaña.</p>
+                        <audio controls preload="metadata" src="img/video/Audio/audio de campaña M.mpeg">
+                            Tu navegador no soporta la reproducción de audio. 
+                            Puedes descargarlo <a href="img/video/Audio/audio de campaña M.mpeg" style="color: var(--naranja);">haciendo clic aquí</a>.
+                        </audio>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== SOBRE MÍ ===== -->
+        <div class="seccion-contenedor" id="sobre-mi">
+            <div class="reveal">
+                <h2 class="titulo-seccion">Sobre mí</h2>
+                
+                <div class="perfil-sobre-mi">
+                    <img src="img/perfil de candidato.jpeg" alt="Gustavo Páramo">
+                    <div class="texto-biografia">
+                        <h3>Un joven preparado, con visión y compromiso</h3>
+                        <p><strong>Gustavo Páramo</strong> es un joven michoacano de 31 años, originario de La Piedad y residente en Morelia desde hace 12 años. Es egresado con mención honorífica de la Licenciatura en Derecho por la Universidad Michoacana de San Nicolás de Hidalgo (UMSNH) y cuenta con una segunda licenciatura en Economía por el Instituto Tecnológico Autónomo, con enfoque en finanzas públicas y desarrollo regional.</p>
+                        <br>
+                        <p>Ha complementado su formación con un Diplomado en Políticas Públicas y Gobierno Abierto en el CIDE (modalidad ejecutiva) y domina el inglés a nivel avanzado (C1). Su compromiso es construir un Michoacán con más oportunidades, seguridad y desarrollo para todas y todos.</p>
+                    </div>
+                </div>
+
+                <div class="card-info">
+                    <h3>Datos Generales</h3>
+                    <ul>
+                        <li><strong>Nombre:</strong> Gustavo Páramo</li>
+                        <li><strong>Cargo al que aspira:</strong> Gobernador de Michoacán</li>
+                        <li><strong>Partido:</strong> Movimiento Ciudadano</li>
+                        <li><strong>Edad:</strong> 31 años</li>
+                        <li><strong>Origen:</strong> La Piedad, Michoacán</li>
+                        <li><strong>Residencia:</strong> Morelia (12 años)</li>
+                        <li><strong>Estado civil:</strong> Soltero</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- ===== FORMACIÓN Y TRAYECTORIA ===== -->
+        <div class="seccion-contenedor bg-gris" id="trayectoria" style="max-width: 100%;">
+            <div style="max-width: 1100px; margin: 0 auto;" class="reveal">
+                <h2 class="titulo-seccion">Formación y Trayectoria</h2>
+                
+                <div class="grid-2">
+                    <div class="card-info" style="border-left-color: var(--naranja);">
+                        <h3>Licenciatura en Derecho</h3>
+                        <p style="color: var(--naranja); font-weight: 800; margin-bottom: 0.5rem;">UMSNH</p>
+                        <p>Universidad Michoacana de San Nicolás de Hidalgo. Egresado con mención honorífica.</p>
+                    </div>
+                    <div class="card-info" style="border-left-color: var(--naranja);">
+                        <h3>Licenciatura en Economía</h3>
+                        <p style="color: var(--naranja); font-weight: 800; margin-bottom: 0.5rem;">ITAM</p>
+                        <p>Instituto Tecnológico Autónomo. Enfoque en finanzas públicas y desarrollo regional.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <h3>Coordinación de Vinculación Juvenil y Experimento en Michoacán</h3>
+                    <span class="fecha">Movimiento Ciudadano | 2023</span>
+                    <p>Impulsó más de 40 foros ciudadanos en colonias y tenencias de Morelia para recopilar propuestas en materia de primer empleo y seguridad barrial.</p>
+                </div>
+
+                <div class="timeline-item">
+                    <h3>Asesor Legislativo en Materia Económica Presupuestal</h3>
+                    <span class="fecha">Congreso del Estado de Michoacán | 2021 - 2023</span>
+                    <p>Participó en el análisis de paquetes fiscales municipales y redactó iniciativas enfocadas en la simplificación administrativa para micro y pequeñas empresas.</p>
+                </div>
+
+                <div class="timeline-item">
+                    <h3>Cofundador y Consultor en "Nexo Legal y Financiero"</h3>
+                    <span class="fecha">Morelia, Mich. | 2022 - 2024</span>
+                    <p>Despacho boutique dedicado a brindar asesoría fiscal, constitución legal y planes de negocios a jóvenes emprendedores y comercios locales de la capital.</p>
+                </div>
+
+                <div class="timeline-item">
+                    <h3>Fundador de la Asociación Civil "Morelia Camina"</h3>
+                    <span class="fecha">2019 - Actualidad</span>
+                    <p>Colectivo ciudadano dedicado al rescate de espacios públicos, reforestaciones urbanas en zonas como Río Chiquito y auditoría ciudadana sobre rutas de transporte público.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- ===== REDES Y EQUIPO ===== -->
+        <div class="seccion-contenedor" id="redes">
+            <div class="reveal">
+                <h2 class="titulo-seccion">Sígueme en Redes</h2>
+                <p style="margin-bottom: 1rem;">Conecta con la campaña y mantente al día con las propuestas de un Nuevo Rumbo.</p>
+                
+                <div class="redes-grid">
+                    <div class="red-card">
+                        <div class="icono-red"><i class="fab fa-facebook-f"></i></div>
+                        <h3>Facebook</h3>
+                        <a href="https://www.facebook.com/share/1KD9s7iBw6/" target="_blank" class="btn-red">Seguir</a>
+                    </div>
+                    <div class="red-card">
+                        <div class="icono-red"><i class="fab fa-instagram"></i></div>
+                        <h3>Instagram</h3>
+                        <a href="https://www.instagram.com/gustavo_paramomich?bqrl=MWszcGNvZGl2MXQxZw==" target="_blank" class="btn-red">Seguir</a>
+                    </div>
+                    <div class="red-card">
+                        <div class="icono-red"><i class="fab fa-tiktok"></i></div>
+                        <h3>TikTok</h3>
+                        <a href="https://www.tiktok.com/@gustavo.pramo8?_r=1&_t=ZS-9BakjehfUWr" target="_blank" class="btn-red">Seguir</a>
+                    </div>
+                </div>
+
+                <h2 class="titulo-seccion" style="margin-top: 3rem;">Equipo de Campaña</h2>
+                <div class="equipo-card">
+                    <h3>Campaña UMSNH</h3>
+                    <p>Andrea Fernanda González Martínez</p>
+                    <p>Evelyn Naomi Torres Ramírez</p>
+                    <p>Estrella Michell Pérez</p>
+                    <p>Anita Mariano Villuendas Luna</p>
+                    <p>Heidi Susana</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <p>© 2026 Campaña Gustavo Páramo · Movimiento Ciudadano Michoacán</p>
+    </footer>
+
+    <!-- BOTÓN VOLVER ARRIBA -->
+    <button onclick="topFunction()" id="btnTop" title="Ir arriba"><i class="fas fa-arrow-up"></i></button>
+
+    <!-- ===== JAVASCRIPT ===== -->
+    <script>
+        // Menú Móvil
+        document.getElementById('menuToggle').addEventListener('click', function() {
+            document.getElementById('navList').classList.toggle('active');
+        });
+
+        document.querySelectorAll('nav a').forEach(link => {
+            link.addEventListener('click', () => {
+                document.getElementById('navList').classList.remove('active');
+            });
+        });
+
+        // Animación al hacer Scroll (Intersection Observer)
+        const revealElements = document.querySelectorAll('.reveal');
+        const revealObserver = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                    observer.unobserve(entry.target); // Solo anima una vez
+                }
+            });
+        }, { threshold: 0.15 });
+
+        revealElements.forEach(el => revealObserver.observe(el));
+
+        // Botón Volver Arriba
+        let mybutton = document.getElementById("btnTop");
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        function topFunction() {
+            window.scrollTo({top: 0, behavior: 'smooth'});
+        }
+    </script>
+</body>
+</html>
